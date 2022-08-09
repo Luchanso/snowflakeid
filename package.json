@@ -1,7 +1,8 @@
 {
     "name": "@luchanso/snowflakeid",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "build/index.js",
+    "types": "build/index.d.ts",
     "repository": "git@github.com:Luchanso/snowflakeid.git",
     "author": "Oleg Loutchansky <luchansodev@gmail.com>",
     "license": "MIT",
