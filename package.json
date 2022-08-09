@@ -1,0 +1,25 @@
+{
+    "name": "@luchanso/snowflakeid",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "repository": "git@github.com:Luchanso/snowflakeid.git",
+    "author": "Oleg Loutchansky <luchansodev@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "yarn tsc",
+        "prepublish": "yarn build",
+        "test": "jest"
+    },
+    "dependencies": {
+        "bigint-buffer": "1.1.5",
+        "flake-idgen": "1.4.0"
+    },
+    "devDependencies": {
+        "@types/flake-idgen": "0.1.31",
+        "@types/jest": "28.1.6",
+        "jest": "28.1.3",
+        "ts-jest": "28.0.7",
+        "typescript": "4.7.4"
+    }
+}
